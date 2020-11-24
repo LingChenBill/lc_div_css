@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	background-image:url(../images/21001.gif);
+	background-repeat:repeat-x;
+}
+#box{
+	width:917px;
+	height:472px;
+	margin:0px auto;
+	padding-top:80px;
+}

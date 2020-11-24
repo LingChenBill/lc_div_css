@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	background-image:url(../images/2901.gif);
+	background-repeat:repeat;
+}
+#box{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+#logo{
+	height:53px;
+	padding-top:15px;
+	background-image:url(../images/2902.gif);
+	background-repeat:repeat-x;
+}
+#main{
+	width:928px;
+	height:100%;
+	overflow:hidden;
+	margin:10px auto;
+}
+#main img{
+	margin:5px 5px;
+}
+
+.img {
+	border: solid #21242c 3px;
+	padding: 3px;
+}
+.img01 {
+	border: dashed #21242c 3px;
+	padding: 3px;
+}
+.img02 {
+	border: dotted #21242c 3px;
+	padding: 3px;
+}
+.img03 {
+	border: double #21242c 3px;
+	padding: 3px;
+}

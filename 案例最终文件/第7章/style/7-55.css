@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #737373;
+	text-align: center;
+}
+#list_title {
+	background-image: url(../images/5501.jpg);
+	background-repeat: no-repeat;
+	text-align: right;
+	height: 22px;
+	width: 580px;
+	padding-top: 13px;
+	padding-right: 19px;
+	margin: 100px auto 5px auto;
+}
+#table_bg {
+	background-color: #EEE4FD;
+	padding: 5px;
+	height: 132px;
+	width: 587px;
+	border: 1px solid #D5B8FB;
+	margin: 0 auto;
+}
+#table_list {
+	background-color: #F8F2FE;
+	text-align: left;
+	height: 132px;
+	width: 100%;
+}
+#type {
+	background-image: url(../images/5503.gif);
+	background-repeat: no-repeat;
+	background-position: 1px 7px;
+	text-indent: 12px;
+	width: 77px;
+}
+#name {
+	color: #40403E;
+	text-align: center;
+	width: 197px;
+}
+#list {
+	width: 102px;
+	text-align: center;
+}
+#game {
+	text-align: center;
+	width: 136px;
+}
+#down {
+    color: #40403E;
+	text-align: center;
+}
+td {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #D4C1EF;
+}

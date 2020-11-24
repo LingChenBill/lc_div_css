@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	font-family:"宋体";
+	font-size:12px;
+	line-height:25px;
+	background-color:#FFF;
+}
+#box{
+	width:980px;
+	height:100%;
+	overflow:hidden;
+	margin:0px auto;
+}
+#logo{
+	width:250px;
+	height:80px;
+	padding-top:50px;
+	padding-bottom:50px;
+	float:left;
+}
+#menu{
+	width:650px;
+	height:80px;
+	padding-top:50px;
+	padding-bottom:50px;
+	float:left;
+	padding-left:80px;
+}
+#menu li{
+	list-style-type:none;
+	padding-left:3px;
+	padding-right:3px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	float:right;
+	margin-right:10px;
+	margin-left:1px;
+}
+#bottom{
+	clear:both;
+	width:980px;
+	height:439px;	
+}
+.blendtrans {
+	filter: BlendTrans(Duration=3);
+}

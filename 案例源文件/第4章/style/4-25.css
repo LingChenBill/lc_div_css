@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	font-size:14px;
+	color:#333;
+	background-image:url(../images/42501.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#text{
+	width:280px;
+	height:262px;
+	margin-left:620px;
+	margin-top:40px;
+	line-height:25px;
+}
+.font{
+	color:#FFF;
+	font-weight:bold;
+	font-size:46px;
+	line-height:50px;
+}
+.font01{
+	font-weight:bold;
+	font-size:24px;
+	line-height:30px;
+}

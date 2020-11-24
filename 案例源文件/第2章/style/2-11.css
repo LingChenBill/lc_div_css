@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	background-image:url(../images/21101.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#box{
+	width:844px;
+	margin:0px auto;
+	background-image:url(../images/21102.gif);
+	background-repeat:no-repeat;
+	background-position:center top;
+	padding-top:280px;
+}
+#pic{
+	width:210px;
+	height:254px;
+	border-right:1px solid #CCC;
+}
+#pic01{
+	position: relative;
+	top: -254px;
+	left: 210px;
+	width:210px;
+	height:254px;
+	border-right:1px solid #CCC;
+}
+#pic02{
+	position: relative;
+	top: -508px;
+	left: 420px;
+	width:210px;
+	height:254px;
+	border-right:1px solid #CCC;
+}
+#pic03{
+	position: relative;
+	top: -762px;
+	left: 630px;
+	width:210px;
+	height:254px;
+}

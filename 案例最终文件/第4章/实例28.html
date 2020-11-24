@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>制作企业介绍页面</title>
+<link href="style/4-28.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('images/42804.jpg','images/42807.jpg')">
+<div id="box">
+  <div id="left">
+    <div id="pic"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','images/42804.jpg',1)"><img src="images/42803.jpg" width="100" height="146" id="Image1" /></a></div>
+    <div id="text">
+      <p class="font">创意的黄金海岸Web设计风格</p>
+      <p><span class="font01">我</span>们不是制作简单漂亮的网页设计或电子商务网站的模板，而是通过精确的战略目标与最终的搜索引擎优化您的业务需要的服务。</p>
+    </div>
+  </div>
+  <div id="right">
+    <div id="text01">
+      <p class="font">革命性的黄金海岸网页设计服务</p>
+      <p><span class="font01">网</span>站设计者在为顾客提供创新和创意的网上平台时，尽量节省客户资金和购买一次性的产品模板，避免过度浪费。</p>
+    </div>
+    <div id="pic01"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','images/42808.jpg',1)"><img src="images/42807.jpg" width="100" height="146" id="Image2" /></a></div>
+  </div>
+</div>
+</body>
+</html>

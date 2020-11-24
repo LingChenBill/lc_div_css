@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body {
+	font-family: 微软雅黑;
+	font-size: 12px;
+	line-height: 23px;
+	color:#A2875F;
+	background-color: #053346;
+	background-image: url(../images/8301.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#box {
+	width: 825px;
+	height: 100%;
+	overflow: hidden;
+	margin: 0px auto;
+	padding-top: 140px;
+}
+#top {
+	width: 785px;
+	height: 83px;
+	background-image: url(../images/8302.png);
+	background-repeat: no-repeat;
+	padding: 15px 20px 0px 20px;
+	color: #393346;
+	line-height: 40px;
+	font-weight: bold;
+}
+#top span {
+	margin-left: 12px;
+	margin-right: 12px;
+	color: #FFAC0B;
+}
+#main {
+	height: 100%;
+	overflow: hidden;
+	background-image: url(../images/8303.png);
+	background-repeat: repeat-y;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#title {
+	height: 40px;
+	border-bottom: solid 1px #A2875F;
+	text-align: center;
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 20px;
+	color: #FFAC0B;
+}
+#list {
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #393346;
+}
+#text p {
+	text-indent: 24px;
+	margin-top: 12px;
+}
+#bottom {
+	width: 825px;
+	height: 172px;
+	background-image: url(../images/8304.png);
+	background-repeat: no-repeat;
+	background-position: 1px top;
+	text-align: center;
+	padding-top: 40px;
+}
+.link01:link,.link01:visited {
+	color: #393346;
+	text-decoration: underline;
+}
+.link01:hover,.link01:active {
+	color: #FFAC0B;
+	text-decoration: none;
+}
+
+
+

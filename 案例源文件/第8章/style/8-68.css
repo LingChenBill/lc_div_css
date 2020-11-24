@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body {
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: #333;
+	line-height: 20px;
+}
+#box {
+	width: 1200px;
+	height: 420px;
+	background-color: #FFF;
+	background-image: url(../images/6802.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+#top {
+	width: 100%;
+	height: 274px;
+}
+#menu {
+	width: 730px;
+	height: 146px;
+	margin-left: 143px;
+	background-color: #ACACAC;
+}
+
+
+
+

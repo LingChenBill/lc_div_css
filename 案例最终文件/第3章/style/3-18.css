@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:"宋体";
+	font-size:15px;
+	line-height:25px;
+	color:#CCC;
+	background-image:url(../image/31801.jpg);
+}
+#box{
+	width:900px;
+	height:100%;
+	overflow:hidden;
+	margin:80px auto 0px auto;
+	padding-left:20px;
+}
+#top{
+	width:900px;
+	height:100%;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.font{
+	font-size:20px;
+	color:#99cc00;
+	font-weight:bold;
+}
+#main{
+	width:900px;
+	height:100%;
+	overflow:hidden;
+}
+#pic,#pic01,#pic02,#pic03{
+	float:left;
+	width:400px;
+	height:221px;
+	margin:25px 25px;
+}

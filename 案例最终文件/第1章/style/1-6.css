@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	font-family:"宋体";
+	font-size:14px;
+	color:#9e9e9e;
+	background-image:url(../images/1601.jpg);
+	background-repeat:no-repeat;
+
+}
+#box{
+	width:100%;
+	height:700px;
+	margin:0px auto;
+}
+#menu{
+	height:50px;
+	line-height:50px;
+	background-color:#FFF;
+	background-image:url(../images/1602.jpg);
+	background-repeat:no-repeat;
+	background-position:30px 10px;
+	padding-left:250px;
+}
+#menu span{
+	margin-left:10px;
+	margin-right:10px;
+}
+#main{
+	width:961px;
+	height:430px;
+	margin:0px auto;
+}
+#left{
+	float:left;
+	width:50px;
+	height:240px;
+	padding-top:190px;
+}
+#center{
+	float:left;
+	width:473px;
+	height:430px;
+	background-image:url(../images/1604.png);
+	background-repeat:no-repeat;
+	background-position:left 80px;
+	padding-left:388px;
+}
+#right{
+	float:left;
+	width:50px;
+	height:240px;
+	padding-top:190px;
+}
+#bottom{
+	width:935px;
+	height:191px;
+	margin:0px auto;
+	background-image:url(../images/1607.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+}
+#bottom img{
+	margin-left:5px;
+	margin-right:5px;
+}

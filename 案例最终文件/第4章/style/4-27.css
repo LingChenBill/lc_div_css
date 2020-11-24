@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	font-family:"宋体";
+	font-size:12px;
+	color:#442306;
+	background-image:url(../images/42701.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#box{
+	width:974px;
+	height:100%;
+	overflow:hidden;
+	margin:50px auto 0px;
+	background-image:url(../images/42702.png);
+	background-repeat:no-repeat;
+	background-position:right center;
+}
+#text{
+	width:344px;
+	height:331px;
+	margin-top:20px;
+	margin-left:30px;
+}
+#title{
+	width:344px;
+	height:14px;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#bottom{
+	width:974px;
+	height:136px;
+	margin-top:50px;
+	color:#CCC;
+}
+#pic{
+	float:left;
+	width:102px;
+	height:136px;
+	background-image:url(../images/42703.png);
+	background-repeat:no-repeat;
+	padding-left:114px;
+	padding-right:30px;
+}
+.font{
+	letter-spacing:0.5em;
+}
+.font01{
+	line-height:25px;
+}

@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	font-family:"宋体";
+	font-size:12px;
+	color:#878787;
+	background-image:url(../images/43401.jpg);
+	background-repeat:repeat;
+}
+#box{
+	width:943px;
+	height:100%;
+	overflow:hidden;
+	margin:0px auto;
+	padding-left:30px;
+	padding-right:30px;
+}
+#top{
+	width:943px;
+	height:30px;
+	padding-top:30px;
+	padding-bottom:30px;
+	border-bottom:solid 1px #d3d3d3;
+}
+#top img{
+	float:left;
+}
+#menu{
+	float:left;
+	width:415px;
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+	margin-left:394px;
+	text-align:right;
+}
+#menu li{
+	float:left;
+	list-style:none;
+	padding-right:20px;
+	padding-left:20px;
+	border-right:solid 1px #d3d3d3;
+}
+#main{
+	width:943px;
+	height:490px;
+	background-image:url(../images/43404.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+}
+#text{
+	width:480px;
+	height:136px;
+	font-size:14px;
+	background-image:url(../images/43405.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	margin-top:50px;
+	padding-left:463px;
+	line-height:25px;
+}

@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	background-image:url(../images/21201.jpg);
+	background-repeat:repeat;
+}
+#box{
+	width:900px;
+	height:100%;
+	overflow:hidden;
+	margin:0px auto;
+}
+#logo{
+	width:900px;
+	height:56px;
+	margin-bottom:20px;
+}
+#main{
+    position: relative;
+	width:750px;
+	height:400px;
+	margin:0px auto;
+}
+#pic{
+	width:306px;
+	height:165px;
+}
+#pic01{
+    position: absolute;
+	top: 110px;
+	width:306px;
+	height:165px;
+}
+#pic02{
+    position: absolute;
+	top: 220px;
+	width:306px;
+	height:165px;
+}
+#pic03{
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	width:306px;
+	height:165px;
+}
+#pic04{
+	position: absolute;
+	top: 110px;
+	left: 400px;
+	width:306px;
+	height:165px;
+}
+#pic05{
+	position: absolute;
+	top: 220px;
+	left: 400px;
+	width:306px;
+	height:165px;
+}

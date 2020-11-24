@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	font-family:"宋体";
+	font-size:12px;
+	color:#999;
+	background-image:url(../images/1001.gif);
+	background-repeat:repeat-x;
+	background-color:#ecfbf3;
+}
+#bg{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-image:url(../images/1001.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#box{
+	width:980px;
+	height:100%;
+	overflow:hidden;
+	margin:0px auto;
+}
+#top{
+	width:956px;
+	height:155px;
+	background-image:url(../images/1002.jpg);
+	background-repeat:no-repeat;
+	background-position:center -1px;
+	padding-bottom:29px;
+	padding-left:24px;
+}
+#logo{
+	width:159px;
+	height:70px;
+	margin-left:30px;
+	padding-top:25px;
+}
+#menu{
+	width:956px;
+	height:60px;
+}
+#top img{
+	margin-right:2px;
+}
+#main{
+	width:964px;
+	height:100%;
+	overflow:hidden;
+	background-image:url(../images/1010.jpg);
+	background-repeat:repeat-x;
+	margin:0px auto;
+}
+#left{
+	float:left;
+	width:648px;
+	height:100%;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+#flash{
+	width:648px;
+	height:365px;
+	background-image:url(../images/1011.jpg);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+}
+#rank{
+	float:left;
+	width:314px;
+	height:218px;
+	background-image:url(../images/1013.jpg);
+	background-repeat:no-repeat;
+	background-position:center 15px;
+	padding-top:50px
+}
+#rank_title{
+	width:314px;
+	height:30px;
+	color:#5d463f;
+	font-weight:bold;
+	line-height:30px;
+	border-bottom:#bde0da solid 1px;
+}
+.a{
+	color:#d2e0db;
+	margin-left:5px;
+	margin-right:5px;
+	font-weight:normal;
+}
+.b{
+	color:#d2e0db;
+	margin-left:150px;
+	margin-right:20px;
+	font-weight:normal;
+}
+#rank_text{
+	width:314px;
+	height:155px;
+	margin-top:5px;
+	color:#8d7869;
+}
+#rank_text dt{
+	float:left;
+	width:268px;
+	height:30px;
+	border-bottom:#bde0da dashed 1px;
+	padding-left:5px;
+	line-height:30px;
+}
+#rank_text dd{
+	float:left;
+	width:41px;
+	height:30px;
+	border-bottom:#bde0da dashed 1px;
+	line-height:30px;
+}
+.img{
+	vertical-align:middle;
+	margin-right:22px;
+}
+.font{
+	font-weight:bold;
+	font-size:14px;
+	margin-left:3px;
+	margin-right:25px;
+}
+#business{
+	float:left;
+	width:312px;
+	height:218px;
+	margin-left:20px;
+	background-image:url(../images/1018.jpg);
+	background-repeat:no-repeat;
+	background-position:center 15px;
+	padding-top:50px;
+	padding-left:2px;
+}
+#pic{
+	float:left;
+	width:95px;
+	height:118px;
+	color:#3c3b3b;
+	font-weight:bold;
+	margin-left:4px;
+	margin-right:4px;
+	line-height:28px;
+	text-align:center;
+}
+#pic01,#pic02{
+	float:left;
+	width:95px;
+	height:118px;
+	color:#3c3b3b;
+	font-weight:bold;
+	margin-left:4px;
+	margin-right:4px;
+	line-height:28px;
+	text-align:center;
+}
+.font01{
+	background-image:url(../images/1022.png);
+	background-repeat:no-repeat;
+	background-position:15px center;
+}
+#pic03{
+	clear:both;
+	width:299px;
+	height:90px;
+	padding-top:10px;
+	margin-left:5px;
+}
+#right{
+	float:left;
+	width:297px;
+	height:100%;
+	overflow:hidden;
+	margin-left:19px;
+}
+#flv{
+	width:277px;
+	height:140px;
+	background-image:url(../images/1024.jpg);
+	background-repeat:no-repeat;
+	padding:10px 10px;
+}
+#pic04{
+	width:283px;
+	height:130px;
+	padding:7px 7px;
+	margin-top:10px;
+	margin-bottom:14px;
+	background-image:url(../images/1026.png);
+	background-repeat:no-repeat;
+}
+#news{
+	width:297px;
+	height:275px;
+	line-height:25px;
+	background-image:url(../images/1028.jpg);
+	background-repeat:no-repeat;
+	padding-top:30px;
+}
+#news li{
+	list-style:none;
+	background-image:url(../images/1029.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	margin-left:10px;
+	padding-left:10px;
+}
+#bottom{
+	width:980px;
+	height:90px;
+	color:#cfbfbf;
+	line-height:20px;
+	padding-top:10px;
+	background-image:url(../images/1030.jpg);
+	background-repeat:no-repeat;
+}
+.img01{
+	float:left;
+	margin-top:34px;
+	margin-left:20px;
+	margin-bottom:34px;
+	margin-right:20px;
+}
+.font02{
+	line-height:30px;
+	color:#989391;
+}

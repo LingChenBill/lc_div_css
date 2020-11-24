@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BlendTrans滤镜</title>
+<link href="style/9-76.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="playImg()">
+<div id="box">
+  <div id="logo"><img src="images/7601.png"
+  width="242" height="76" /></div>
+  <div id="menu">
+    <ul>
+      <li><img src="images/7602.jpg" width="116" height="35" /></li>
+      <li><img src="images/7603.jpg" width="116" height="35" /></li>
+      <li><img src="images/7604.jpg" width="116" height="35" /></li>
+      <li><img src="images/7605.jpg" width="116" height="35" /></li>
+    </ul>
+  </div>
+  <div id="bottom">
+  <img src="images/7606.jpg" name="imgpic" width="980" height="439" 
+  class="blendtrans" id="imgpic" /></div>
+  <script language="javascript">
+  <!--
+  ImgNum = new ImgArray(2);
+  ImgNum[0] = "images/7606.jpg";
+  ImgNum[0] = "images/7607.jpg";
+  function ImgArray(len)
+  {
+	  this.length = len;
+	  }
+  var i = 1;
+  function playImg() {
+	  if(i=1) {
+		  i=0;
+		  }
+	  else {
+		  i++;
+		  }
+	  imgpic.filters[0].apply();
+	  imgpic.src = ImgNum[i];
+	  imgpic.filters[0].play();
+	  timeout = setTimeout('playImg()',4000);
+	  }
+  -->
+  </script>
+</div>
+</body>
+</html>

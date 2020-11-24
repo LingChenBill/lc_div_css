@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml:stylesheet type="text/css" href="style/10-80.css"?>
+<xueshengxinxi>
+  <xuesheng>
+    <banji-title>电子商务</banji-title>
+    <xuesheng-list>王雪 | 1992-12-16 | 总分590 | 安徽宣城 </xuesheng-list>
+    <xuesheng-list>程宁 | 1992-08-24 | 总分560 | 江苏南京 </xuesheng-list>
+    <xuesheng-list>王叶 | 1991-11-23 | 总分555 | 北京 </xuesheng-list>
+  </xuesheng>
+  <xuesheng >
+    <banji-title>平面设计</banji-title>
+    <xuesheng-list>张月 | 1991-05-13 | 总分600 | 上海 </xuesheng-list>
+    <xuesheng-list>陈琳 | 1990-06-08 | 总分596 | 浙江杭州 </xuesheng-list>
+    <xuesheng-list>刘启 | 1990-12-25 | 总分568 | 北京 </xuesheng-list>
+  </xuesheng>
+  <xuesheng>
+    <banji-title>网页设计</banji-title>
+    <xuesheng-list>杜峰 | 1991-03-24 | 总分621 | 北京 </xuesheng-list>
+    <xuesheng-list>王烁 | 1990-05-16 | 总分596 | 安徽宣城</xuesheng-list>
+    <xuesheng-list>刘启 | 1991-12-25 | 总分588 | 北京 </xuesheng-list>
+  </xuesheng>
+</xueshengxinxi>

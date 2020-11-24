@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	background-color:#917e67;
+}
+#box{
+	width:820px;
+	height:687px;
+	background-image:url(../images/2801.jpg);
+	background-repeat:no-repeat;
+	background-position: left 20px;
+	margin:0px auto;
+	padding-top: 20px;
+}
+#pic{
+	width:654px;
+	height:475px;
+	margin-top:195px;
+	margin-left:83px;
+}

@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	font-family:"宋体";
+	font-size:12px;
+	color:#FFF;
+	background-image:url(../images/9001.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#box{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	margin:0px auto;
+	background-image:url(../images/9002.gif);
+	background-repeat:repeat;
+	margin-top:240px;
+}
+#main{
+	width:888px;
+	height:325px;
+	margin:20px auto;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+}
+#title{
+	width:853px;
+	height:35px;
+	color:#99abc1;
+	line-height:35px;
+	border-bottom:#99abc1 dashed 1px;
+	font-weight:bold;
+	background-image:url(../images/9006.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:35px;
+}
+#text{
+	width:603px;
+	height:240px;
+	margin-top:6px;
+	line-height:30px;
+	padding-left:35px;
+	background-image:url(../images/9007.jpg);
+	background-repeat:no-repeat;
+	background-position:600px center;
+	padding-right:250px;
+}
+#main dt{
+	float:left;
+	width:400px;
+	height:30px;
+	background-image:url(../images/9008.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:20px;
+}
+#main dd{
+	float:left;
+	width:150px;
+	height:30px;
+}
+#title01,#title02,#title03{
+	width:853px;
+	height:35px;
+	color:#99abc1;
+	line-height:35px;
+	border-bottom:#99abc1 dashed 1px;
+	font-weight:bold;
+	background-image:url(../images/9006.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:35px;
+}
+#text01{
+	width:603px;
+	height:240px;
+	margin-top:6px;
+	line-height:30px;
+	padding-left:35px;
+	background-image:url(../images/9009.jpg);
+	background-repeat:no-repeat;
+	background-position:600px center;
+	padding-right:250px;
+}
+#text02{
+	width:603px;
+	height:240px;
+	margin-top:6px;
+	line-height:30px;
+	padding-left:35px;
+	background-image:url(../images/9010.jpg);
+	background-repeat:no-repeat;
+	background-position:600px center;
+	padding-right:250px;
+}
+#text03{
+	width:603px;
+	height:240px;
+	margin-top:6px;
+	line-height:30px;
+	padding-left:35px;
+	background-image:url(../images/9011.jpg);
+	background-repeat:no-repeat;
+	background-position:600px center;
+	padding-right:250px;
+}
+#bottom{
+	width:100%;
+	height:100px;
+	background-image:url(../images/9012.gif);
+	background-repeat:no-repeat;
+	background-position:center top;
+}

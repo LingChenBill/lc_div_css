@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body {
+	font-size: 12px;
+	line-height: 25px;
+	color: #333;
+	background-color: #C9E5F8;
+	background-image: url(../images/4902.jpg);
+	background-repeat: repeat-x;
+}
+#box {
+	width: 900px;
+	height: 100%;
+	overflow: hidden;
+	background-image: url(../images/4901.jpg);
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+#pop {
+	width: 510px;
+	height: 208px;
+	margin-left: 390px;
+}
+#music {
+	width: 495px;
+	height: 100%;
+	overflow: hidden;
+	background-image: url(../images/4905.gif);
+	background-repeat: no-repeat;
+	padding-top: 40px;
+	margin-left: 190px;
+	float: left;
+}
+
+#link {
+	width: 200px;
+	height: 100%;
+	overflow: hidden;
+	background-image: url(../images/4908.gif);
+	background-repeat: no-repeat;
+	padding-top: 40px;
+	margin-left: 15px;
+	float: left;
+}
+#link img {
+	margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:"宋体";
+	font-size:12px;
+	color:#FFF;
+	background-color:#000;
+}
+#box{
+	width:873px;
+	height:100%;
+	overflow:hidden;
+	margin:40px auto 0px auto;
+}
+#left{
+	float:left;
+	width:133px;
+	height:100%;
+	overflow:hidden;
+	line-height:30px;
+	margin-right:20px;
+}
+#left img{
+	margin-bottom:30px;
+}
+#right{
+	float:left;
+	width:720px;
+	height:100%;
+	overflow:hidden;
+}
+#text{
+	width:720px;
+	height:100%;
+	overflow:hidden;
+	line-height:20px;
+	margin-bottom:10px;
+}
+.font{
+	font-size:14px;
+	line-height:45px;
+	font-weight:bold;
+}
+#pic{
+	width:620px;
+	height:342px;
+	border:ridge #FFF 10px;
+	padding:15px;
+	background-image:url(../image/32202.jpg);
+	background-repeat:no-repeat;
+	-webkit-background-size:550px 322px;
+	-webkit-background-origin:content;
+}

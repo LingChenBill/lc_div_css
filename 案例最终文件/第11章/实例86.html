@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>制作导航下拉菜单</title>
+<link href="style/11-86.css" rel="stylesheet" type="text/css" />
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="bg">
+  <div id="menu">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="#">首页</a>    </li>
+    <li><a href="#">核心服务</a>    </li>
+    <li><a class="MenuBarItemSubmenu" href="#">设计领域</a>
+      <ul>
+<li><a href="#">金融银行证券</a></li>
+        <li><a href="#">集团上市企业</a></li>
+        <li><a href="#">房地产楼盘</a></li>
+        <li><a href="#">IT科技</a></li>
+        <li><a href="#">娱乐时尚流行</a></li>
+        <li><a href="#">其他</a></li>
+      </ul>
+    </li>
+    <li><a href="#" class="MenuBarItemSubmenu">精品案例</a>
+      <ul>
+        <li><a href="#">平面设计类</a></li>
+        <li><a href="#">3D动画</a></li>
+        <li><a href="#">室内装饰业</a></li>
+        <li><a href="#">软件开发专利</a></li>
+      </ul>
+    </li>
+    <li><a href="#" class="MenuBarItemSubmenu">卓越技术</a>
+      <ul>
+        <li><a href="#">PHP网站开发</a></li>
+        <li><a href="#">J2EE网站设计</a></li>
+        <li><a href="#">网站定制开发</a></li>
+        <li><a href="#">大型网站设计</a></li>
+      </ul>
+    </li>
+    <li><a href="#" class="MenuBarItemSubmenu">解决方案</a>
+      <ul>
+        <li><a href="#">企业网站建设</a></li>
+        <li><a href="#">门户网站策划</a></li>
+        <li><a href="#">行业网站建设</a></li>
+        <li><a href="#">品牌网站改造</a></li>
+        <li><a href="#">营销网站设计</a></li>
+      </ul>
+    </li>
+    <li><a href="#" class="MenuBarItemSubmenu">关于我们</a>
+      <ul>
+        <li><a href="#">我们是谁</a></li>
+        <li><a href="#">成绩认可</a></li>
+        <li><a href="#">知名客户</a></li>
+        <li><a href="#">新闻</a></li>
+        <li><a href="#">设计原则</a></li>
+      </ul>
+    </li>
+    <li><a href="#" class="MenuBarItemSubmenu">联系我们</a>
+      <ul>
+        <li><a href="#">在线洽谈</a></li>
+        <li><a href="#">远程协助</a></li>
+        <li><a href="#">视频交流</a></li>
+        <li><a href="#">发送邮件</a></li>
+      </ul>
+    </li>
+  </ul>
+  </div>
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

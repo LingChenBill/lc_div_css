@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body {
+	font-size: 12px;
+	color: #FFF;
+	line-height: 20px;
+	background-image: url(../images/5201.jpg);
+	background-repeat: repeat;
+}
+#box {
+	width: 900px;
+	height: 100%;
+	overflow: hidden;
+	margin: 0px auto;
+}
+#top {
+	height: 110px;
+	background-image: url(../images/5202.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 40px;
+}
+#logo {
+	width: 233px;
+	height: 77px;
+	float: left;
+}
+#title {
+	width: 300px;
+	height: 40px;
+	margin-top: 50px;
+	font-family: 微软雅黑;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	float: right;
+}
+#banner {
+	width: 900px;
+	height: 421px;
+	background-image: url(../images/5204.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
