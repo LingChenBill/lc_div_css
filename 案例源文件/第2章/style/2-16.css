@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: "宋体";
+    font-size: 12px;
+    color: #777387;
+    background-image: url("../images/21601.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#LayoutDiv1 {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+#menu {
+    clear: both;
+    margin-left: 0;
+    display: block;
+    height: 39px;
+    line-height: 39px;
+    background-image: url("../images/21603.png");
+    background-repeat: repeat-x;
+    padding-left: 20px;
+}
+
+#menu span {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#pic1, #pic5 {
+    clear: both;
+    float: left;
+    /*width: 100%;*/
+    display: block;
+    padding: 5px;
+    margin: 15px 9px;
+    text-align: center;
+    background-color: #2e2b3b;
+}
+
+#pic1 img {
+    width: 180px;
+    margin-bottom: 5px;
+}
+
+#pic1:hover {
+    background-color: #4c4762;
+    cursor: pointer;
+}
+
+.font {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#pic2,#pic3,#pic4,#pic6,#pic7,#pic8 {
+    float: left;
+    /*clear: both;*/
+    display: block;
+    padding: 5px;
+    margin: 15px 9px;
+    text-align: center;
+    background-color: #2e2b3b;
+}
+
+#pic2 img,#pic3 img,#pic4 img,#pic5 img,#pic6 img,#pic7 img,#pic8 img{
+    width: 180px;
+    margin-bottom: 5px;
+}
+#pic2:hover,#pic3:hover,#pic4:hover,#pic5:hover,#pic6:hover,#pic7:hover,#pic8:hover{
+    background-color: #4c4762;
+    cursor: pointer;
+}

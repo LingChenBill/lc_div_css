@@ -54,4 +54,6 @@ body{
 	padding:15px;
 	background-image:url(../image/32202.jpg);
 	background-repeat:no-repeat;
+	-webkit-background-size: 550px 322px;
+	-webkit-background-origin: content;
 }

@@ -13,6 +13,7 @@ body{
 	line-height:25px;
 	background-image:url(../image/32001.jpg);
 	background-position:left top;
+	background-attachment: fixed;
 }
 #box{
 	width:900px;

@@ -9,6 +9,7 @@
 body{
 	font-family:"黑体";
 	font-size:12px;
+	background-color: #e8c11c;
 }
 #box{
 	width:1004px;
@@ -40,6 +41,7 @@ body{
 	color:#e7c01b;
 	padding-left:25px;
 	padding-top:15px;
+	background-color: #000;
 }
 .font{
 	font-weight:bold;
@@ -54,9 +56,10 @@ body{
 	padding-top:15px;
 	padding-left:15px;
 	padding-right:25px;
+	background-color: #FFF;
 }
-#right{
-	float:left;
-	width:609px;
-	height:407px;
-	
+#right {
+	float: left;
+	width: 609px;
+	height: 407px;
+}

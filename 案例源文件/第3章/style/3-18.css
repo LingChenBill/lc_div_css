@@ -11,6 +11,8 @@ body{
 	font-size:15px;
 	line-height:25px;
 	color:#CCC;
+	background-image: url("../image/31801.jpg");
+	background-repeat: repeat-x;
 }
 #box{
 	width:900px;

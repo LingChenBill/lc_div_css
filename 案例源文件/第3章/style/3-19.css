@@ -16,6 +16,9 @@ body{
 #box{
 	width:100%;
 	height:600px;
+	background-image: url(../image/31902.png);
+	background-repeat: no-repeat;
+	background-position: 180px 30px;
 }
 #left{
 	line-height:30px;

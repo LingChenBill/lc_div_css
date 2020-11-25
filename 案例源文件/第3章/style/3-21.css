@@ -39,4 +39,7 @@ body{
 	width:960px;
 	height:480px;
 	margin-bottom:20px;
+	background-image: url("../image/32103.jpg");
+	background-repeat: no-repeat;
+	background-size: 80% 350px;
 }
