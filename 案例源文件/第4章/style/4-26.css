@@ -35,3 +35,15 @@ body{
 	background-repeat:no-repeat;
 	padding-top:35px;
 }
+
+.font {
+	text-decoration: underline;
+}
+
+.font01 {
+	text-decoration: overline;
+}
+
+.font02 {
+	text-decoration: overline line-through;
+}

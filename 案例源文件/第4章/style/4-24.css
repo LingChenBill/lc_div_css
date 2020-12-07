@@ -55,3 +55,13 @@ body{
 	margin-top:11px;
 	margin-left:17px;
 }
+.font {
+	font-family: "黑体";
+	font-size: 14px;
+	color: #FF0;
+}
+
+.font01 {
+	font-family: "幼圆";
+	font-weight: bold;
+}

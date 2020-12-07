@@ -31,3 +31,15 @@ body{
 	font-size:24px;
 	line-height:30px;
 }
+
+.font02 {
+	text-transform: capitalize;
+}
+
+.font03 {
+	text-transform: lowercase;
+}
+
+.font04 {
+	text-transform: uppercase;
+}
