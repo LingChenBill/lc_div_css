@@ -37,3 +37,14 @@ body{
 	border:#CCC solid 1px;
 	margin:2px 5px;
 }
+.font {
+	vertical-align: top;
+}
+
+.font01 {
+	vertical-align: middle;
+}
+
+.font02 {
+	vertical-align: bottom;
+}

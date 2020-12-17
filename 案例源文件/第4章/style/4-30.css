@@ -37,3 +37,15 @@ body{
 	width:260px;
 	height:310px;
 }
+
+.font01 {
+	text-align: left;
+}
+
+.font02 {
+	text-align: center;
+}
+
+.font03 {
+	text-align: right;
+}
