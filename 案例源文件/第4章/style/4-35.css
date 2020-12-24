@@ -58,6 +58,7 @@ body{
 #text01{
 	width:350px;
 	height:90px;
+	word-wrap: break-word;
 }
 #text02{
 	width:350px;

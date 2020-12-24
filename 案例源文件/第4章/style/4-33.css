@@ -66,3 +66,12 @@ body{
 	margin-left:10px;
 	margin-right:10px;
 }
+
+.font01 {
+	color: #F0F;
+	font-weight: bold;
+}
+
+.font02 {
+	color: #FF0;
+}
