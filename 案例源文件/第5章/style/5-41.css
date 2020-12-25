@@ -93,3 +93,8 @@ body{
 	font-weight:bold;
 	line-height:30px;
 }
+
+#text img {
+	float: right;
+	margin-left: 20px;
+}

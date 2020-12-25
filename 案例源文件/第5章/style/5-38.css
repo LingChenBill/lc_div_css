@@ -41,3 +41,17 @@ body{
 	margin-left:15px;
 	margin-right:15px;
 }
+
+.img {
+	width: 960px;
+	height: 418px;
+}
+
+.img01 {
+	width: 100%;
+}
+
+.img02 {
+	width: 100%;
+	height: 418px;
+}

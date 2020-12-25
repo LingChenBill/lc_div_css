@@ -94,3 +94,12 @@ body{
 	height:149px;
 	margin-left:10px;
 }
+
+.img01 {
+	border: 5px solid #FFF;
+    -webkit-border-top-colors: #0FF #00CCFF #0099FF #0066FF #0033FF;
+	-moz-border-right-colors: #0FF #00CCFF #0099FF #0066FF #0033FF;
+	-moz-border-bottom-colors: #0FF #00CCFF #0099FF #0066FF #0033FF;
+	-moz-border-left-colors: #0FF #00CCFF #0099FF #0066FF #0033FF;
+
+}

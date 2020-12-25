@@ -51,16 +51,19 @@ body{
 	height:172px;
 	margin-top:5px;
 	margin-bottom:5px;
+	text-align: left;
 }
 #pic02{
 	width:990px;
 	height:172px;
 	margin-top:5px;
 	margin-bottom:5px;
+	text-align: center;
 }
 #pic03{
 	width:990px;
 	height:172px;
 	margin-top:5px;
 	margin-bottom:5px;
+	text-align: right;
 }

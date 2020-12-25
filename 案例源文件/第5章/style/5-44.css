@@ -35,17 +35,20 @@ body{
 	background-position:30px 42px;
 	padding-left:180px;
 }
-#menu{
+#menu02{
 	width:505px;
 	height:37px;
 	text-align:center;
 	margin-top:70px;
 	margin-left:230px;
+	border-width: 0px 20px;
+	-webkit-border-image: url("../images/54405.png") 0 20 0 20 stretch stretch;
 }
 .font{
 	font-weight:normal;
 	margin-left:15px;
 	margin-right:15px;
+	color: #0033FF;
 }
 #pic{
 	width:100%;

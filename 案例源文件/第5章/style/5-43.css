@@ -53,29 +53,29 @@ html,body {
 	float:left;
 	width:260px;
 	height:285px;
-	background-color:#FFF;
 	margin-left:20px;
 	margin-right:20px;
 	padding-top:15px;
 	background-color:#a4ac2d;
+	border-radius: 15px;
 }
 #pic02{
 	float:left;
 	width:260px;
 	height:285px;
-	background-color:#FFF;
 	margin-left:20px;
 	margin-right:20px;
 	padding-top:15px;
 	background-color:#a4ac2d;
+	-webkit-border-radius: 15px 0 15px 0;
 }
 #pic03{
 	float:left;
 	width:260px;
 	height:285px;
-	background-color:#FFF;
 	margin-left:20px;
 	margin-right:20px;
 	padding-top:15px;
 	background-color:#a4ac2d;
+	-webkit-border-radius: 15px 15px 15px 0;
 }

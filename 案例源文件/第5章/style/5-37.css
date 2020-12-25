@@ -67,3 +67,9 @@ body{
 	margin-right:9px;
 	margin-top:6px;
 }
+
+.img {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #c9c5c4;
+}
