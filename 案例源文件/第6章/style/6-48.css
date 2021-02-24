@@ -24,8 +24,9 @@ body {
 	overflow: hidden;
 	margin: 0px auto;
 	padding-top: 260px;
-	padding-left: 600px;
+	padding-left: 950px;
 }
+
 #title {
 	width: 400px;
 	height: 40px;
@@ -42,6 +43,14 @@ body {
 	width: 440px;
 	height: 150px;
 	margin-top: 10px;
+}
+
+#news li {
+	list-style-type: none;
+	background-image: url("../images/4803.gif");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 15px;
 }
 
 

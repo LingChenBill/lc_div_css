@@ -20,6 +20,10 @@ body {
 	padding: 84px 23px 11px 173px;
 }
 
-
+#news li {
+	list-style-type: square;
+	list-style-position: inside;
+	border-bottom: 1px solid #0099FF;
+}
 
 

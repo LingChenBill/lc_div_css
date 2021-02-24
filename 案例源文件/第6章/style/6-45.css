@@ -20,6 +20,11 @@ body {
 	padding: 34px 15px 43px 15px;
 }
 
+#news li {
+	list-style-position: inside;
+	border-bottom: 1px dashed #33CCFF;
+	padding-left: 5px;
+}
 
 
 

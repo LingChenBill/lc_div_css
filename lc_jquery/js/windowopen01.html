@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        #targetElement {
+            height: 200px;
+            width: 600px;
+            margin-top: 300px;
+            margin-left: 300px;
+            background: #9cf;
+        }
+        .positionDiv {
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            background: #080;
+        }
+    </style>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.js"></script>
+
+    <title>Title</title>
+</head>
+<body>
+    <div id="targetElement">
+        <div class="positionDiv" id="position1"></div>
+    </div>
+    <!--<a id="link01" href="javascript:void(0);" style="text-align: center; margin: auto 300px" onclick="javascript: positionClick(); ">点此开窗</a>-->
+    <!--<a id="link01" href="" style="text-align: center; margin: auto 300px" onclick="javascript: positionClick(); ">点此开窗</a>-->
+    <!--<a id="link01" href="" style="text-align: center; margin: auto 300px" onclick="positionClick(); ">点此开窗</a>-->
+    <!--<a id="link01" href="javascript: positionClick();" style="text-align: center; margin: auto 300px">点此开窗</a>-->
+    <!--<a id="link01" href="javascript: positionClick();" style="text-align: center; margin: auto 300px">点此开窗</a>-->
+
+    <!--<a onclick="alert('您单击了第一个超链接')">第1个超链接</a><br>-->
+    <!--<a href="https://www.baidu.com" onclick="positionClick()">第2个超链接</a>-->
+    <a href="" onclick="positionClick();">第2个超链接</a>
+
+    <input type="button" value="Open PDF" id="buttonOpenPdf" />
+
+    <script
+            language=javascript defer>
+        newwin=window.open('FReport.stx#ZOOM=100' ,'','top=0,left=0,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=no,resizable=yes,width=1024,height=768')
+    </script>
+
+</body>
+</html>

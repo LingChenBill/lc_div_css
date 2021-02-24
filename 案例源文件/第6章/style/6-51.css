@@ -33,6 +33,36 @@ body {
 	padding: 115px 14px 0px 8px;
 }
 
+#menu li {
+	list-style-type: none;
+	background-image: url("../images/5104.gif");
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding-top: 10px;
+}
+
+#menu li a {
+	display: block;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: none;
+	border-right: 1px solid #d17523;
+}
+
+#menu li a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#menu li a:hover {
+	color: #FFF;
+	text-decoration: none;
+	background-image: url("../images/5105.gif");
+	background-repeat: no-repeat;
+}
+
 
 
 
