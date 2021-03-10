@@ -49,3 +49,6 @@ body {
 	background-position: center bottom;
 }
 
+#title:before {
+	content: "店铺展示效果";
+}
