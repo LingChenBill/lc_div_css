@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>position demo</title>
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/black-tie/jquery-ui.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+
+<div id="targetElement">
+    <div class="positionDiv" id="position1"></div>
+</div>
+
+<script>
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("POST","books");
+    var xmlDoc;
+    xmlhttp.onreadystatechange = function() {
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        xmlDoc = xmlhttp.responseXML;
+        console.log(xmlDoc);
+        }
+    };
+    xmlhttp.setRequestHeader('Content-Type', 'text/xml');
+    var xml = "<?xml version='1.0'?><query><author>John Steinbeck</author></query>";
+    xmlhttp.send(xml);
+</script>
+
+</body>
+</html>

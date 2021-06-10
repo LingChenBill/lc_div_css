@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>position demo</title>
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/black-tie/jquery-ui.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+</head>
+<body>
+
+<div id="targetElement">
+    <div class="positionDiv" id="position1"></div>
+</div>
+
+<script>
+var jsondata = { "root": [
+    {
+        "id":1,
+        "label":"一级 2",
+        "children":[
+            {
+                "id":3,
+                "label":"二级 2-1",
+                "children":[
+                    {
+                        "id":4,
+                        "label":"三级 3-1-1"
+                    },
+                    {
+                        "id":5,
+                        "label":"三级 3-1-2",
+                        "disabled":true
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "label":"二级 2-2",
+                "disabled":true,
+                "children":[
+                    {
+                        "id":6,
+                        "label":"三级 3-2-1"
+                    },
+                    {
+                        "id":7,
+                        "label":"三级 3-2-2",
+                        "disabled":true
+                    }
+                ]
+            }
+        ]
+    }
+]}
+
+// var s4 = _.get(jsondata, ['root[0].children[0]']);
+// var s4 = _.get(jsondata, 'root[0].children[0]');
+var s4 = _.get(jsondata, 'root[0].children[0].label');
+alert(s4)
+
+</script>
+
+</body>
+</html>
