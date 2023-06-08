@@ -1,0 +1,68 @@
+/*div 外框。*/
+.box-border {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    border: 1px solid grey;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    display: flex;                      /* 内容居中。*/
+    justify-content: center;            /* 内容居中。*/
+    align-items: center;                /* 内容居中。*/
+}
+
+/*设置字体样式。*/
+.box h2 {
+    color: white;
+    font-size: 4em;
+    text-shadow: 2px 2px pink;
+    z-index: 1;
+}
+
+/* 伪元素 before 创建一个渐变盒子。*/
+.box::before {
+    content: "";
+    position: absolute;
+    width: 120px;                       /* 改变宽度。*/
+    height: 120%;                       /* 改变高度。*/
+    background:
+        linear-gradient(#00ccff, #d500f9);
+}
+
+/* 伪元素 after 创建一个盒子。*/
+.box::after {
+    content: "";
+    position: absolute;
+    background: #0e1538;
+    inset: 5px;
+    border-radius: 20px;
+}
+
+/* 给渐变盒子设置旋转动画。*/
+.box::before {
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 隐藏盒子以外的内容。*/
+.box {
+    overflow: hidden;
+}
