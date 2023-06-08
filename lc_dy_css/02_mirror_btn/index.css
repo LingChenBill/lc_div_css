@@ -1,0 +1,39 @@
+/*div 外框。*/
+.box-border {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    border: 1px solid grey;
+}
+
+/* 设置按钮样式。*/
+.btn-mirror {
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;                              /* 设置按钮的圆角弧度 */
+    background-color: rgb(14, 14, 14);                  /* 设置按钮背景色 */
+    color: rgb(234, 234, 234);                          /* 设置按钮字体颜色 */
+    box-shadow: 0px 0px 60px #1f4c65;                   /* 设置盒子阴影 */
+    -webkit-box-reflect: below 10px linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.0),
+            rgba(0, 0, 0, 0.4));                        /* 设置盒子反射, 反射显示在底部, 反射渐变背景色 */
+}
+
+/* 设置悬浮样式。*/
+.btn-mirror:hover {
+    background: linear-gradient(
+            270deg,
+            rgba(2, 29, 78, 0.681) 30%,
+            rgba(31, 215, 232, 0.873) 60%);             /* 悬浮改变背景色 */
+    color: rgb(4, 4, 38);                               /* 悬浮改变字体色 */
+}
+
+/* 设置过渡动画。*/
+.btn-mirror {
+    transition: 0.5s;
+}
