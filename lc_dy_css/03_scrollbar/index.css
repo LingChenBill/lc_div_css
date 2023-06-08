@@ -1,0 +1,37 @@
+/* div 外框。*/
+.box-border {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    border: 1px solid grey;
+}
+
+/* 创建一个滚动条的盒子。*/
+.scrollbar-container {
+    width: 120px;
+    height: 250px;
+    border: 1px solid grey;
+    overflow: auto;                     /* 显示滚动条 */
+}
+
+/* 定义滚动条。*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: gray;
+}
+
+/* 定义滚动轨道。*/
+::-webkit-scrollbar-track {
+    background: #ECEC84;                    /* 轨道颜色 */
+    border-radius: 10px;
+}
+
+/* 定义滚动滑块。*/
+::-webkit-scrollbar-thumb {
+    /*background: orange;                 !* 滑块是单一颜色。 *!*/
+    background: linear-gradient(180deg, #F0BBC3, #10A44A);          /* 设置渐变滑块背景色 */
+    border-radius: 10px;
+}
