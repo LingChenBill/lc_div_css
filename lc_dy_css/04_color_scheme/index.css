@@ -1,0 +1,22 @@
+/* div 外框。*/
+.box-border {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    border: 1px solid grey;
+}
+
+/* 设置整个背景色。*/
+body {
+    background: black;
+}
+
+/* 使用主题色方案。*/
+:root{
+    /*color-scheme: dark;            !* 自动适应系统的dark方案。*!*/
+    /*color-scheme: light;*/
+    color-scheme: light;
+}

@@ -1,0 +1,54 @@
+/* div 外框。*/
+.box-border {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    border: 1px solid grey;
+}
+
+/* 定义按钮样式。*/
+.btn-rollup {
+    background: transparent;            /* 背景色透明 */
+    border: 2px solid purple;           /* 边框 */
+    color: purple;
+    padding: 10px 20px;                 /* 左右内边距 */
+    font-weight: bold;                  /* 字体加粗 */
+    position: relative;                 /* 设置父元素 */
+}
+
+/* 伪元素 before 定义悬浮后样式。*/
+.btn-rollup::before {
+    content: "";
+    display: block;                     /* 将元素设置成块 */
+    width: 100%;
+    height: 100%;
+    background: purple;
+    position: absolute;                 /* 相对父元素 */
+    top: 0;
+    left: 0;
+    transform: skewX(45deg);            /* x方向扭曲45度 */
+}
+
+/* 伪元素初始宽度为0 */
+.btn-rollup::before {
+    width: 0;
+    transition: all 1s;                  /* 过渡持续1s */
+    z-index: -1;                         /* 伪元素层级调整为-1 */
+    left: -30px;                         /* 向左偏移一段距离 */
+}
+
+/* 伪元素悬浮宽度为100% */
+.btn-rollup:hover::before {
+    width: 150%;                         /* 悬浮宽度 */
+}
+
+.btn-rollup:hover{
+    color: white;                        /* 修改悬浮颜色为白色 */
+}
+
+.btn-rollup {
+    overflow: hidden;                    /* 隐藏溢出部分 */
+}

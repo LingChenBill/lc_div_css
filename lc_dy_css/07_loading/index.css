@@ -1,0 +1,31 @@
+/* div 外框。*/
+.box-border {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    border: 1px solid grey;
+}
+
+.loading {
+    width: 80px;
+    height: 80px;
+    /* background: orange; */
+    background: transparent;                                /* 设置背景色为透明 */
+    border: 6px solid aqua;
+    border-color: aqua red;
+    animation: rotate-loading 1.2s linear infinite;         /* 指定动画 */
+    border-radius: 50%;                                     /* 设置弧度为圆 */
+}
+
+/* 定义旋转动画 */
+@keyframes rotate-loading {
+    from {
+        rotate: 0deg;                   /* 初始状态为0度 */
+    }
+    to {
+        rotate: 360deg;                 /* 结束状态为360度 */
+    }
+}
