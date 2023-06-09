@@ -1,0 +1,21 @@
+/* div 外框。*/
+.box-border {
+    width: 400px;
+    height: 400px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 3rem auto;
+    /* border: 1px solid grey; */
+}
+
+/* 如果想要实现单行文字的水平居中，我们使用text-align属性就能轻松实现。 */
+/* 多行文字的水平居中较少，在此可以忽略。 */
+.text-div-center {
+    display: inline-block;
+    width: 380px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid grey;
+}

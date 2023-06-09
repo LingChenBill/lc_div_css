@@ -1,0 +1,13 @@
+/* div 外框。*/
+
+/* 对于行内元素(inline)以及复合行内元素(inline-*), 可以使用“text-align:center” 来实现水平居中。 */
+/* 也就是说，“text-align: center” 不仅可以用于文字，也可以用于行内元素以及复合行内元素。 */
+/* 复合行内元素包括 inline-block、inline-table 以及 inline-flex 之类的元素。 */
+.inline-div-center {
+    width: 60%;
+    height: 30px;
+    border: 1px solid gray;
+    /* margin: 0 auto; */
+    margin: 20px auto 0 auto;               /* 使外框 div 水平居中 */
+    text-align: center;                     /* 行内元素和复合行内元素的水平居中 */
+}

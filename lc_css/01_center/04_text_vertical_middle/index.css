@@ -1,0 +1,32 @@
+
+/* 对于单行文字来说，我们定义 line-height 和 height 这两个属性的值相等就可以实现垂直居中。 */
+.single-line-center {
+    width: 60%;
+    height: 100px;
+    line-height: 100px;                     /* 设置单行的高度 */
+    border: 1px solid gray;
+    margin: 20px auto 0 auto;               /* 使外框 div 水平居中 */
+    text-align: center;                     /* 行内元素和复合行内元素的水平居中 */
+}
+
+.multi-lines-div {
+    width: 60%;
+    margin: 100px auto;
+}
+
+/* 如果父元素高度固定，文字可能是两行或者更多行，如何实现多行文字的垂直居中呢？ */
+/* 实现的关键是，用一个span标签把所有文字包含起来， */
+/* 然后定义 span 为 inline-block 元素，之后使用 inline-块元素 垂直居中的方式来处理即可。 */
+.multi-lines-center {
+    width: 400px;                           /* 这个宽度不能使用百分比来设置 */
+    height: 500px;
+    border: 1px solid gray;
+    text-align: center;                     /* 行内元素和复合行内元素的水平居中 */
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.multi-lines-center span {
+    display: inline-block;
+}

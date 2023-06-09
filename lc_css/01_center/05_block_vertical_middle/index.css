@@ -1,0 +1,19 @@
+
+.father-center {
+    width: 60%;
+    height: 160px;
+    border: 1px solid gray;
+    margin: 20px auto 0 auto;               /* 使外框 div 水平居中 */
+    position: relative;                     /* 给父元素定位 */
+}
+
+.son-center {
+    width: 100px;
+    height: 60px;
+    background-color: purple;
+    position: absolute;                     /* 给子元素定位 */
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;                      /* 子元素的height值一半的负值 */
+    margin-left: -50px;                     /* 子元素的width值一半的负值 */
+}

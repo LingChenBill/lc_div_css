@@ -1,0 +1,16 @@
+/* div 外框。*/
+
+/* 在CSS中，对于块元素，如果给定了宽度，直接定义 margin-left 和 margin-right 都为 auto 就能实现水平居中。 */
+/* 只要我们保证 margin-left 和 margin-right 都为 auto, 就能保证块元素的水平居中。 */
+/* 对于块元素来说，不管父元素的宽度如何，只要给块元素指定宽度，这个方法就有效。 */
+/* 如果没有给块元素指定宽度，则块元素默认会占满允许的最大宽度，此时这个方法是没有效的。 */
+
+/* 因此想要使用“margin:0 auto”来实现块元素的水平居中，就一定要指定块元素的宽度。 */
+.block-div-center {
+    width: 60%;
+    height: 100px;
+    border: 1px solid gray;
+    /* margin: 0 auto; */
+    margin: 200px auto 0 auto;
+    text-align: center;                     /* 文字水平居中 */
+}
